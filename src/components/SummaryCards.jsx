@@ -42,7 +42,6 @@ const SummaryCards = ({ tasks }) => {
       {/* In Progress Card */}
       <div className="hidden min-[1270px]:block  h-[126px] rounded-xl border border-[#E5E7EB] bg-white px-[22px] pt-[21px]">
         <div className="grid grid-cols-[44px_1fr] gap-x-[15px] gap-y-[10px]">
-        
           <div className="flex h-[44px] w-[44px] items-center justify-center rounded-xl bg-[#E7F5FC]">
             <Clock4 size={22} className="text-[#2594CA]" />
           </div>
