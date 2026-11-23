@@ -6,8 +6,8 @@ FocusBoard helps users organize tasks, track progress, manage priorities, and st
 
 ## Live Demo
 
-- **Live Application:** [Add your deployed URL]
-- **GitHub Repository:** [Add your repository URL]
+- **Live Application:** [https://focusboard-lyart-gamma.vercel.app]
+- **GitHub Repository:** [https://github.com/prashanththota98/FocusBoard.git]
 
 ## Features
 
