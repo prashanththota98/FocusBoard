@@ -9,14 +9,6 @@ const FocusNotes = () => {
   const currentSlide = focusNotes[activeSlide];
   const [activeArrow, setActiveArrow] = useState("next");
 
-  //   const previousSlide = () => {
-  //     setActiveSlide((prev) => (prev === 0 ? focusNotes.length - 1 : prev - 1));
-  //   };
-
-  //   const nextSlide = () => {
-  //     setActiveSlide((prev) => (prev + 1) % focusNotes.length);
-  //   };
-
   const previousSlide = () => {
     setActiveArrow("previous");
     setActiveSlide((prev) => (prev === 0 ? focusNotes.length - 1 : prev - 1));
@@ -85,8 +77,7 @@ const FocusNotes = () => {
         </div>
         <FocusNoteProgress className="hidden max-[1199px]:block w-[204px] h-[6px] ml-[20px] mt-[30px] opacity-[0.32] text-[#ffffff]" />
       </div>
-      {/* ml-auto flex min-w-0 items-center gap-3 xl:mr-[32px] xl:gap-[clamp(16px,5vw,76px) */}
-      {/* Right content: card and arrows */}
+
       <div className="ml-auto hidden shrink-0 items-center gap-3 min-[1280px]:flex min-[1280px]:mr-[32px] min-[1280px]:gap-[76px]">
         <FocusNoteCard />
 

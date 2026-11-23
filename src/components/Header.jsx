@@ -1,34 +1,3 @@
-// import { ChevronDown } from "lucide-react";
-
-// const Header = () => {
-//   return (
-//     <header className="flex items-center justify-between pr-[50.75px] h-[85px]">
-//       {/* Breadcrumb */}
-//       <div className="flex items-center gap-2 mt-[38px] font-['Inter'] text-[13px] leading-[100%] tracking-[0%] text-sm">
-//         <span className=" text-[#9AA4B7] ml-[44px]">Workspace</span>
-
-//         <span className="text-sm text-[#CBD5E1] ml-[8px]">/</span>
-
-//         <span className="text-sm font-semibold text-[#252B3B] ml-[18px]">
-//           Overview
-//         </span>
-//       </div>
-
-//       {/* Right section */}
-// <div className="mt-[22px] flex items-center gap-[14.75px]">
-//   {/* User avatar */}
-//   <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#E8E7FF] text-sm font-semibold text-[#6257E8]">
-//     PT
-//   </div>
-
-//   <ChevronDown size={12} strokeWidth={1.27} className="text-[#64748B]" />
-// </div>
-//     </header>
-//   );
-// };
-
-// export default Header;
-
 import { ChevronDown } from "lucide-react";
 
 const Header = () => {
