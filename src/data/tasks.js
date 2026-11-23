@@ -1,0 +1,58 @@
+const tasks = [
+  {
+    id: 1,
+    title: "Design landing page",
+    description: "Create the initial landing page layout and design.",
+    category: "Design",
+    status: "in-progress",
+    priority: "high",
+    dueDate: "2026-11-23",
+  },
+  {
+    id: 2,
+    title: "Build dashboard components",
+    description: "Develop reusable dashboard components.",
+    category: "Development",
+    status: "todo",
+    priority: "high",
+    dueDate: "2026-11-24",
+  },
+  {
+    id: 3,
+    title: "Review project requirements",
+    description: "Go through requirements and finalize the scope.",
+    category: "Planning",
+    status: "completed",
+    priority: "medium",
+    dueDate: "2026-11-20",
+  },
+  {
+    id: 4,
+    title: "Fix responsive layout",
+    description: "Improve the layout for tablet and mobile screens.",
+    category: "Development",
+    status: "in-progress",
+    priority: "medium",
+    dueDate: "2026-11-25",
+  },
+  {
+    id: 5,
+    title: "Prepare project documentation",
+    description: "Write setup instructions and project documentation.",
+    category: "Documentation",
+    status: "todo",
+    priority: "low",
+    dueDate: "2026-11-27",
+  },
+  {
+    id: 6,
+    title: "Test task interactions",
+    description: "Verify task creation, editing, deletion, and filtering.",
+    category: "Testing",
+    status: "completed",
+    priority: "low",
+    dueDate: "2026-11-21",
+  },
+];
+
+export default tasks;
